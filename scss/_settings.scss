@@ -45,8 +45,8 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
-$global-lineheight: 1.5;
+$global-width: rem-calc(1160);
+$global-lineheight: 1.4;
 $primary-color: #2199e8;
 $secondary-color: #777;
 $success-color: #3adb76;
@@ -55,11 +55,11 @@ $alert-color: #ec5840;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
+$black: #1d1d1d;
 $white: #fefefe;
-$body-background: $white;
-$body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-background: #e2e7ec;
+$body-font-color: #1d1c1c;;
+$body-font-family: 'HansKendrick', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -86,8 +86,8 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-responsive-gutter: (
-  small: 20px,
-  medium: 30px,
+  small: 10px,
+  medium: 20px,
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -96,7 +96,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: 800;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
@@ -110,15 +110,15 @@ $header-sizes: (
   ),
   medium: (
     'h1': 48,
-    'h2': 40,
-    'h3': 31,
+    'h2': 30,
+    'h3': 22,
     'h4': 25,
     'h5': 20,
     'h6': 16,
   ),
 );
-$header-color: inherit;
-$header-lineheight: 1.4;
+$header-color: #1d1c1c;;
+$header-lineheight: 1.36;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
@@ -542,8 +542,8 @@ $tooltip-radius: $global-radius;
 // 35. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-padding: 0;
+$topbar-background: transparent;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 
